@@ -34,7 +34,7 @@ ownership information and boost speed of development.`,
     year: "Jan 2024 - Present",
     role: "Data Science Researcher",
     company: "Mozur Research Group",
-    description: `Working across Data Science and Material Engineering departments building models to predict the steps necessary to go from an initial compound to a manganese-based intermetallic. Using Tensorflow and Sci-Kit Learn to build models, Pandas, Numpy and Sci-Kit Lean for data cleaning, and Seaborn and Matplotlib for visualization. Current models achieve 70% accuracy for number of anneals which is in-line with published results`,
+    description: `Working across Data Science and Material Engineering departments building models to predict the steps necessary to go from an initial compound to a manganese-based intermetallic. Using Tensorflow and Sci-Kit Learn to build models, Pandas, Numpy and Sci-Kit Learn for data cleaning, and Seaborn and Matplotlib for visualization. Current models achieve 70% accuracy for number of anneals which is in-line with published results`,
     technologies: ["Pandas", "Seaborn", "Sci-Kit Learn", "Python", "Tensorflow"],
   },
 ];
