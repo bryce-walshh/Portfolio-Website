@@ -9,6 +9,7 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
+      
     <div className="flex flex-row space-x-4 items-center group relative data-[hover]:text-white">
       <button className="caudex-bold text-4xl ">About Me</button>
       <div>|</div>
