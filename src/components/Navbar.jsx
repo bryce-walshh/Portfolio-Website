@@ -11,12 +11,10 @@ const Navbar = () => {
     <nav className="mb-20 flex items-center justify-between py-6">
     <div className="space-x-4 items-center">
       
-      <button className="cherry-bomb-one-regular text-2xl">About</button>
-      <button className="cherry-bomb-one-regular text-2xl">Projects</button>
-      <button className="cherry-bomb-one-regular text-2xl">Adventures</button>
+      <button className="caudex-bold text-4xl">Menu</button>
       
     </div>
-    <div className="m-8 flex items-center justify-center gap-4 text-3xl">
+    <div className="m-8 flex items-center justify-center gap-4 text-4xl">
     <a href="http://www.linkedin.com/in/brycebwalsh" target="_blank"><FaLinkedin /></a>
     <a href="https://github.com/bryce-walshh" target="_blank"><FaGithub /></a>  
     </div>

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -13,4 +15,28 @@
   font-family: "Cherry Bomb One", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.caudex-regular {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caudex-bold {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.caudex-regular-italic {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.caudex-bold-italic {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: italic;
 }

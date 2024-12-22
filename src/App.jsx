@@ -16,7 +16,8 @@ const App = () => {
 
     <div className="container mx-auto px-8">
       <Navbar />
-      <Hero />
+      <div className="-mt-20"> <Hero /> </div>
+      
       <About />
       <Technologies />
       <Experience />
