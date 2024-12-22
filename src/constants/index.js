@@ -9,32 +9,33 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "Sept 2024 - Present",
+    role: "Lead Data Science Teaching Assistant",
+    company: "Colorado School of Mines",
+    description: `Leading group of 5 teaching assistant for the graduate-level Advanced Data Science course and for the undergraduate-level Intro to Data Science course. Helping students optimize models using traditional data science techniques as well as deep learning and machine learning techniques.`,
+    technologies: ["Pandas", "Tensorflow", "Seaborn", "Sci-Kit Learn", "Python"],
+  },
+  {
     year: "May 2024 - Aug 2024",
     role: "Software Engineer Intern",
     company: "Transamerica",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Developed an end-to-end Gen-AI tool in AWS leveraging Bedrock’s Claude model, Athena, S3, Lambda, Quicksight, and DynamoDB. Worked across teams to develop a scope document for integration of a third-party tool into the existing front-end framework. Added additional functionality to internal QA monitoring tools using Angular and SpringBoot to organize API
+ownership information and boost speed of development.`,
     technologies: ["AWS", "Python", "Javascript", "Angular", "Spring Boot"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "May 2023 - Aug 2023",
+    role: "Data Science Intern",
+    company: "Rio Tinto",
+    description: `Built 150+ daily operations charts in PI Vision improving operational efficiency and data visualization. Applied a Random Forest Classifier (Sci-Kit Learn) and Neural Network (Tensorflow) to detect incorrect sensor data with 99.5% accuracy over 30 million observations. Cleaned dataset of 30 million observations using Pandas, StandardScaler, SMOTE and One-Hot Encoding.`,
+    technologies: ["Pandas", "Tensorflow", "Python", "Sci-Kit Learn", "PI Vision"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Jan 2024 - Present",
+    role: "Data Science Researcher",
+    company: "Mozur Research Group",
+    description: `Working across Data Science and Material Engineering departments building models to predict the steps necessary to go from an initial compound to a manganese-based intermetallic. Using Tensorflow and Sci-Kit Learn to build models, Pandas, Numpy and Sci-Kit Lean for data cleaning, and Seaborn and Matplotlib for visualization. Current models achieve 70% accuracy for number of anneals which is in-line with published results`,
+    technologies: ["Pandas", "Seaborn", "Sci-Kit Learn", "Python", "Tensorflow"],
   },
 ];
 

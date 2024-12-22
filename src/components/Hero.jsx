@@ -25,7 +25,7 @@ const Hero = () => {
                     <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="pb-16 text-6xl caudex-bold tracking-tight lg:mt-20 lg:text8xl">Bryce Walsh</motion.h1>
 
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-green-300 via-slate-500 to-blue-800 bg-clip-text text-3xl tracking-tight text-transparent"> 
-                        Software Engineer and Data Scientist
+                    Data Scientist and Software Engineer 
                     </motion.span>
 
                     <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
