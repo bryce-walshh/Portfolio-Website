@@ -12,8 +12,8 @@ const Navbar = () => {
     <div className="space-x-4 items-center">
       
       <Popover className="relative">
-        <PopoverButton className="caudex-bold text-4xl hover:bg-white/5">Menu</PopoverButton>
-        <PopoverPanel anchor="bottom" className="flex flex-col">
+        <PopoverButton className="caudex-bold text-4xl data-[hover]:text-white ">Menu</PopoverButton>
+        <PopoverPanel anchor="right" className="m-1 flex items-center gap-4 text-white">
           <a href="/analytics">About Me</a>
           <a href="/engagement">Projects</a>
           <a href="/security">Adventures</a>
@@ -23,7 +23,7 @@ const Navbar = () => {
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-4xl">
     <a href="http://www.linkedin.com/in/brycebwalsh" target="_blank"><FaLinkedin /></a>
-    <a href="https://github.com/bryce-walshh" target="_blank"><FaGithub /></a>  
+    <a href="https://github.com/bryce-walshh" target="_blank" ><FaGithub /></a>  
     </div>
   </nav>
   );
