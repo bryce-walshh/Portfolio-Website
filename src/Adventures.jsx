@@ -9,6 +9,7 @@ const Adventures = () => {
         
         <div className="container mx-auto px-8">
             <Navbar></Navbar>
+            <div className="pb-16 text-6xl caudex-bold tracking-tight lg:mt-20 lg:text8xl text-center">Coming Soon!</div>
         </div>
 
     </div>
