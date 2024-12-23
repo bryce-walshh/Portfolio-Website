@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import SkiPic from "./assets/Ski Pic.jpg";
-import { HERO_CONTENT } from "./constants"
+import { ABOUT_ME } from "./constants"
 
 const AboutMe = () => {
   return (
@@ -14,7 +14,7 @@ const AboutMe = () => {
             <div className="flex flex-wrap -mt-20">
               <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
-                  <div className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</div>
+                  <div className="my-2 max-w-xl py-6 font-light text-center tracking-tighter" dangerouslySetInnerHTML={{ __html:ABOUT_ME}}></div>
                 </div>
               </div>
               <div className="w-full lg:w-1/2 lg:p-8">
