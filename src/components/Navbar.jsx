@@ -4,14 +4,17 @@ import {FaGithub} from "react-icons/fa";
 import {FaSquareXTwitter} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa";
 import { motion } from "framer-motion"
+import { useState } from 'react';
+
 
 
 const Navbar = () => {
+
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       
     <motion.div whileInView={{opacity:1, x:0 }} initial={{opacity:0, x:0}} transition={{duration:3.2}} viewport={{ once: true }} className="flex flex-row space-x-4 items-center group relative data-[hover]:text-white">
-      <Link to="/">
+      <Link to="/" >
         <button className="caudex-bold text-4xl ">Home</button>
       </Link>
       <div>|</div>
