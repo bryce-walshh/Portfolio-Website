@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import SkiPic from "./assets/Ski Pic.jpg";
 import { ABOUT_ME } from "./constants"
+import { motion } from "framer-motion"
 
 const AboutMe = () => {
   return (
@@ -13,13 +14,13 @@ const AboutMe = () => {
             <Navbar></Navbar>
             <div className="flex flex-wrap -mt-20">
               <div className="w-full lg:w-1/2">
-                <div className="flex flex-col items-center lg:items-start">
-                  <div className="my-2 max-w-xl py-6 font-light text-center tracking-tighter" dangerouslySetInnerHTML={{ __html:ABOUT_ME}}></div>
-                </div>
+                <motion.div whileInView={{opacity:1, x:0 }} initial={{opacity:0, x:-100}} transition={{duration:1.2}} viewport={{ once: true }} className="flex flex-col items-center lg:items-start">
+                  <div className="my-2 max-w-xl py-6 font-light text-center tracking-tighter" dangerouslySetInnerHTML={{ __html:ABOUT_ME}} ></div>
+                </motion.div>
               </div>
               <div className="w-full lg:w-1/2 lg:p-8">
                   <div className="flex justify-center ">
-                      <img className="rounded-2xl" initial={{x:-100, opacity: 0}} animate={{x:0, opacity: 1}} transition={{duration: 1, delay:1.2}}src={SkiPic} alt="Bryce Skiing Quandry Peak" />
+                      <motion.img className="rounded-2xl" initial={{x:100, opacity: 0}} animate={{x:0, opacity: 1}} transition={{duration: 1.2}}src={SkiPic} alt="Bryce Skiing Quandry Peak" />
                   </div>
               </div>
             </div>
