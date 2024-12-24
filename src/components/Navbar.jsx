@@ -18,17 +18,15 @@ const Navbar = () => {
         <button className="caudex-bold text-4xl ">Home</button>
       </Link>
       <div>|</div>
-      <Link to="/aboutme">
-        <button className="caudex-bold text-4xl ">About Me</button>
-      </Link>
-      <div>|</div>
       <Link to="/projects">
         <button className="caudex-bold text-4xl data-[hover]:text-white">Projects</button>
       </Link>
       <div>|</div>
-      <Link to="/Adventures">
-        <button className="caudex-bold text-4xl data-[hover]:text-white">Adventures</button>
+      <Link to="/aboutme">
+        <button className="caudex-bold text-4xl ">About Me</button>
       </Link>
+      
+      
       
     </motion.div>
     <motion.div whileInView={{opacity:1, x:0 }} initial={{opacity:0, x:0}} transition={{duration:3.2}} viewport={{ once: true }} className="m-8 flex items-center justify-center gap-4 text-4xl">

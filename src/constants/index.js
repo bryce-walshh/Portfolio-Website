@@ -13,6 +13,8 @@ export const ABOUT_ME = `
 <p>I am an avid skier, runner and hiker and also love to read and play guitar. I hope to document some of my adventures on this website if I have time!</p>
 `;
 
+export const Portfolio_Website = `The website that you're on right now! Built using React, HTML and CSS leveraging the Tailwind CSS framework. `;
+
 export const EXPERIENCES = [
   {
     year: "Sept 2024 - Present",
